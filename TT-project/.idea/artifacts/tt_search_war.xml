@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tt-search:war">
+    <output-path>$PROJECT_DIR$/tt-search/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tt-search</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tt-search.war">
+      <element id="artifact" artifact-name="tt-search:war exploded" />
+    </root>
+  </artifact>
+</component>

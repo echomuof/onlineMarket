@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tt-sso:war">
+    <output-path>$PROJECT_DIR$/tt-sso/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tt-sso</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tt-sso.war">
+      <element id="artifact" artifact-name="tt-sso:war exploded" />
+    </root>
+  </artifact>
+</component>

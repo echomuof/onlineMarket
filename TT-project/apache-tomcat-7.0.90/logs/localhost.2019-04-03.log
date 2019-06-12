@@ -1,0 +1,428 @@
+?? 03, 2019 10:57:56 ?? org.apache.catalina.core.ApplicationContext log
+??: No Spring WebApplicationInitializer types detected on classpath
+?? 03, 2019 10:57:56 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring root WebApplicationContext
+?? 03, 2019 10:57:57 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring FrameworkServlet 'tt-manage'
+?? 03, 2019 10:58:00 ?? org.apache.catalina.core.ApplicationContext log
+??: No Spring WebApplicationInitializer types detected on classpath
+?? 03, 2019 10:58:00 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing log4j system
+?? 03, 2019 10:58:00 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring root WebApplicationContext
+?? 03, 2019 10:58:03 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: sysmanage
+?? 03, 2019 10:58:04 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: sysinfo
+?? 03, 2019 10:58:04 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: personal
+?? 03, 2019 10:58:05 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: governance
+?? 03, 2019 10:58:05 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: home
+?? 03, 2019 10:58:06 ?? org.apache.catalina.core.ApplicationContext log
+??: WebxComponents: initialization completed
+?? 03, 2019 10:58:06 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing filter: webx
+?? 03, 2019 10:58:06 ?? org.apache.catalina.core.ApplicationContext log
+??: WebxFrameworkFilter - webx: initialization completed
+?? 03, 2019 10:58:06 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing filter: mdc
+?? 03, 2019 10:58:06 ?? org.apache.catalina.core.ApplicationContext log
+??: SetLoggingContextFilter - mdc: initialization completed
+?? 03, 2019 10:58:07 ?? org.apache.catalina.core.ApplicationContext log
+??: No Spring WebApplicationInitializer types detected on classpath
+?? 03, 2019 10:58:07 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring root WebApplicationContext
+?? 03, 2019 10:58:08 ?? org.apache.catalina.core.StandardContext listenerStart
+??: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.service.OrderService tt.order.store.order.controller.OrderController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5157)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5680)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1017)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2021)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.service.OrderService tt.order.store.order.controller.OrderController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1051)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 39 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1051)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 52 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 54 more
+
+?? 03, 2019 10:58:08 ?? org.apache.catalina.core.ApplicationContext log
+??: Closing Spring root WebApplicationContext
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: No Spring WebApplicationInitializer types detected on classpath
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring root WebApplicationContext
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring FrameworkServlet 'tt-web'
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: ContextListener: contextInitialized()
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: SessionListener: contextInitialized()
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2dad07ba')
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@e89fb52')
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Destroying Spring FrameworkServlet 'tt-web'
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Closing Spring root WebApplicationContext
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: SessionListener: contextDestroyed()
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: ContextListener: contextDestroyed()
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Closing Spring root WebApplicationContext
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Shutting down log system
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Destroying Spring FrameworkServlet 'tt-manage'
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Closing Spring root WebApplicationContext
+?? 03, 2019 10:59:09 ?? org.apache.catalina.core.ApplicationContext log
+??: No Spring WebApplicationInitializer types detected on classpath
+?? 03, 2019 10:59:09 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring root WebApplicationContext
+?? 03, 2019 10:59:11 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring FrameworkServlet 'tt-manage'
+?? 03, 2019 10:59:13 ?? org.apache.catalina.core.ApplicationContext log
+??: No Spring WebApplicationInitializer types detected on classpath
+?? 03, 2019 10:59:13 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing log4j system
+?? 03, 2019 10:59:13 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring root WebApplicationContext
+?? 03, 2019 10:59:16 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: sysmanage
+?? 03, 2019 10:59:16 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: sysinfo
+?? 03, 2019 10:59:17 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: personal
+?? 03, 2019 10:59:18 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: governance
+?? 03, 2019 10:59:18 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring sub WebApplicationContext: home
+?? 03, 2019 10:59:19 ?? org.apache.catalina.core.ApplicationContext log
+??: WebxComponents: initialization completed
+?? 03, 2019 10:59:19 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing filter: webx
+?? 03, 2019 10:59:19 ?? org.apache.catalina.core.ApplicationContext log
+??: WebxFrameworkFilter - webx: initialization completed
+?? 03, 2019 10:59:19 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing filter: mdc
+?? 03, 2019 10:59:19 ?? org.apache.catalina.core.ApplicationContext log
+??: SetLoggingContextFilter - mdc: initialization completed
+?? 03, 2019 10:59:20 ?? org.apache.catalina.core.ApplicationContext log
+??: No Spring WebApplicationInitializer types detected on classpath
+?? 03, 2019 10:59:20 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring root WebApplicationContext
+?? 03, 2019 10:59:21 ?? org.apache.catalina.core.StandardContext listenerStart
+??: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.service.OrderService tt.order.store.order.controller.OrderController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5157)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5680)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1017)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2021)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.service.OrderService tt.order.store.order.controller.OrderController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1051)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 39 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1051)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 52 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 54 more
+
+?? 03, 2019 10:59:21 ?? org.apache.catalina.core.ApplicationContext log
+??: Closing Spring root WebApplicationContext
+?? 03, 2019 10:59:21 ?? org.apache.catalina.core.ApplicationContext log
+??: No Spring WebApplicationInitializer types detected on classpath
+?? 03, 2019 10:59:21 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring root WebApplicationContext
+?? 03, 2019 10:59:22 ?? org.apache.catalina.core.ApplicationContext log
+??: Initializing Spring FrameworkServlet 'tt-web'
+?? 03, 2019 10:59:22 ?? org.apache.catalina.core.ApplicationContext log
+??: ContextListener: contextInitialized()
+?? 03, 2019 10:59:22 ?? org.apache.catalina.core.ApplicationContext log
+??: SessionListener: contextInitialized()
+?? 03, 2019 10:59:22 ?? org.apache.catalina.core.ApplicationContext log
+??: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@17026df2')
+?? 03, 2019 10:59:22 ?? org.apache.catalina.core.ApplicationContext log
+??: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@54525612')
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.ApplicationContext log
+??: Destroying Spring FrameworkServlet 'tt-web'
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.ApplicationContext log
+??: Closing Spring root WebApplicationContext
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.ApplicationContext log
+??: SessionListener: contextDestroyed()
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.ApplicationContext log
+??: ContextListener: contextDestroyed()
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.ApplicationContext log
+??: Closing Spring root WebApplicationContext
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.ApplicationContext log
+??: Shutting down log system
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.ApplicationContext log
+??: Destroying Spring FrameworkServlet 'tt-manage'
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.ApplicationContext log
+??: Closing Spring root WebApplicationContext
+四月 03, 2019 11:00:25 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+四月 03, 2019 11:00:25 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+四月 03, 2019 11:00:26 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'tt-manage'
+四月 03, 2019 11:00:28 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+四月 03, 2019 11:00:28 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing log4j system
+四月 03, 2019 11:00:28 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+四月 03, 2019 11:00:30 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring sub WebApplicationContext: sysmanage
+四月 03, 2019 11:00:31 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring sub WebApplicationContext: sysinfo
+四月 03, 2019 11:00:32 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring sub WebApplicationContext: personal
+四月 03, 2019 11:00:32 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring sub WebApplicationContext: governance
+四月 03, 2019 11:00:33 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring sub WebApplicationContext: home
+四月 03, 2019 11:00:33 下午 org.apache.catalina.core.ApplicationContext log
+信息: WebxComponents: initialization completed
+四月 03, 2019 11:00:33 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing filter: webx
+四月 03, 2019 11:00:33 下午 org.apache.catalina.core.ApplicationContext log
+信息: WebxFrameworkFilter - webx: initialization completed
+四月 03, 2019 11:00:33 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing filter: mdc
+四月 03, 2019 11:00:33 下午 org.apache.catalina.core.ApplicationContext log
+信息: SetLoggingContextFilter - mdc: initialization completed
+四月 03, 2019 11:00:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+四月 03, 2019 11:00:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+四月 03, 2019 11:00:36 下午 org.apache.catalina.core.StandardContext listenerStart
+严重: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.service.OrderService tt.order.store.order.controller.OrderController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5157)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5680)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1017)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:993)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2021)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.service.OrderService tt.order.store.order.controller.OrderController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1051)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.dao.IOrder tt.order.store.order.service.OrderService.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 39 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1051)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private tt.order.store.order.mapper.OrderMapper tt.order.store.order.dao.OrderDAO.orderMapper; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 52 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [tt.order.store.order.mapper.OrderMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 54 more
+
+四月 03, 2019 11:00:36 下午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+四月 03, 2019 11:00:36 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+四月 03, 2019 11:00:36 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+四月 03, 2019 11:00:36 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'tt-web'
+四月 03, 2019 11:00:37 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+四月 03, 2019 11:00:37 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+四月 03, 2019 11:00:37 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@d80febd')
+四月 03, 2019 11:00:37 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@28495526')

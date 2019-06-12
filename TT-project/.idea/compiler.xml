@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tt-solrj" />
+        <module name="tt-common" />
+        <module name="tt-sso" />
+        <module name="tt-sso-query-service" />
+        <module name="tt-order" />
+        <module name="tt-cart" />
+        <module name="tt-manage-web" />
+        <module name="tt-web" />
+        <module name="tt-search" />
+        <module name="tt-sso-query-api" />
+        <module name="tt-manage-pojo" />
+        <module name="tt-manage-mapper" />
+        <module name="tt-manage-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="dubbo-parent" target="1.8" />
+      <module name="hessian-lite" target="1.8" />
+      <module name="opensesame" target="1.8" />
+      <module name="tt-cart" target="1.8" />
+      <module name="tt-common" target="1.8" />
+      <module name="tt-manage" target="1.8" />
+      <module name="tt-manage-mapper" target="1.8" />
+      <module name="tt-manage-pojo" target="1.8" />
+      <module name="tt-manage-service" target="1.8" />
+      <module name="tt-manage-web" target="1.8" />
+      <module name="tt-order" target="1.8" />
+      <module name="tt-parent" target="1.8" />
+      <module name="tt-search" target="1.8" />
+      <module name="tt-solrj" target="1.8" />
+      <module name="tt-sso" target="1.8" />
+      <module name="tt-sso-query-api" target="1.8" />
+      <module name="tt-sso-query-service" target="1.8" />
+      <module name="tt-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

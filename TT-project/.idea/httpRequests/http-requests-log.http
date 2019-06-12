@@ -1,0 +1,116 @@
+GET http://manage.taotao.com/rest/item/cat/?id=560
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+###
+
+GET http://manage.taotao.com/rest/item/cat/?id=558
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+<> 2019-02-16T103431.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item/cat/?cid=558
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+<> 2019-02-16T103420.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item/cat/?cid=560
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+<> 2019-02-16T103319.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item/cat/?id=560
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+###
+
+GET http://manage.taotao.com/rest/item/cat/?id=560
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+###
+
+GET http://manage.taotao.com/rest/item/cat/560
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+<> 2019-02-16T103202.404.html
+
+###
+
+GET http://manage.taotao.com/rest/item/cat?cid=560
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+<> 2019-02-16T103139.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item/cat?id=580
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+<> 2019-02-13T104930.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item/cat
+Accept: */*
+Cache-Control: no-cache
+id: 580
+
+<> 2019-02-13T104916.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item/cat
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-13T104852.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item/cat
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-13T104839.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item/cat
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-13T104831.200.json
+
+###
+
+GET http://manage.taotao.com/rest/item
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-13T104823.404.html
+
+###
+

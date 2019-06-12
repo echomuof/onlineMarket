@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tt-cart/tt-cart.iml" filepath="$PROJECT_DIR$/tt-cart/tt-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-common/tt-common.iml" filepath="$PROJECT_DIR$/tt-common/tt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-manage/tt-manage.iml" filepath="$PROJECT_DIR$/tt-manage/tt-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-manage/tt-manage-mapper/tt-manage-mapper.iml" filepath="$PROJECT_DIR$/tt-manage/tt-manage-mapper/tt-manage-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-manage/tt-manage-pojo/tt-manage-pojo.iml" filepath="$PROJECT_DIR$/tt-manage/tt-manage-pojo/tt-manage-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-manage/tt-manage-service/tt-manage-service.iml" filepath="$PROJECT_DIR$/tt-manage/tt-manage-service/tt-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-manage/tt-manage-web/tt-manage-web.iml" filepath="$PROJECT_DIR$/tt-manage/tt-manage-web/tt-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-order/tt-order.iml" filepath="$PROJECT_DIR$/tt-order/tt-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-parent/tt-parent.iml" filepath="$PROJECT_DIR$/tt-parent/tt-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-search/tt-search.iml" filepath="$PROJECT_DIR$/tt-search/tt-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-solrj/tt-solrj.iml" filepath="$PROJECT_DIR$/tt-solrj/tt-solrj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-sso/tt-sso.iml" filepath="$PROJECT_DIR$/tt-sso/tt-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-sso-query-api/tt-sso-query-api.iml" filepath="$PROJECT_DIR$/tt-sso-query-api/tt-sso-query-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-sso-query-service/tt-sso-query-service.iml" filepath="$PROJECT_DIR$/tt-sso-query-service/tt-sso-query-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tt-web/tt-web.iml" filepath="$PROJECT_DIR$/tt-web/tt-web.iml" />
+    </modules>
+  </component>
+</project>

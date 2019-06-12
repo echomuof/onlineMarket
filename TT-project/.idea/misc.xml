@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$/tt-cart/overlays" />
+    <file type="web" url="file://$PROJECT_DIR$/my-dubbo-b" />
+    <file type="web" url="file://$PROJECT_DIR$/tt-cart" />
+    <file type="web" url="file://$PROJECT_DIR$/tt-manage/tt-manage-web" />
+    <file type="web" url="file://$PROJECT_DIR$/tt-order" />
+    <file type="web" url="file://$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/tt-search" />
+    <file type="web" url="file://$PROJECT_DIR$/tt-sso" />
+    <file type="web" url="file://$PROJECT_DIR$/tt-sso-query-service" />
+    <file type="web" url="file://$PROJECT_DIR$/tt-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tt-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-common/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-web/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast-httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-order/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-solrj/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-search/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/my-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-sso-query-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-sso-query/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-sso-query-service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/my-dubbo-b/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-config/dubbo-config-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-config/dubbo-config-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-config/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-container/dubbo-container-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-container/dubbo-container-jetty/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-container/dubbo-container-log4j/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-container/dubbo-container-logback/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-container/dubbo-container-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-container/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-demo/dubbo-demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-demo/dubbo-demo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-demo/dubbo-demo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-filter/dubbo-filter-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-filter/dubbo-filter-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-monitor/dubbo-monitor-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-monitor/dubbo-monitor-default/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-registry/dubbo-registry-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-registry/dubbo-registry-default/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-registry/dubbo-registry-multicast/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-registry/dubbo-registry-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-registry/dubbo-registry-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-remoting/dubbo-remoting-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-remoting/dubbo-remoting-grizzly/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-remoting/dubbo-remoting-http/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-remoting/dubbo-remoting-mina/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-remoting/dubbo-remoting-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-remoting/dubbo-remoting-p2p/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-remoting/dubbo-remoting-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-remoting/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-api/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-default/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-hessian/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-http/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-injvm/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-memcached/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-rmi/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-thrift/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/dubbo-rpc-webservice/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-simple/dubbo-monitor-simple/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-simple/dubbo-registry-simple/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-simple/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-test/dubbo-test-benchmark/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-test/dubbo-test-compatibility/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-test/dubbo-test-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-test/dubbo-test-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo-test/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-parent/dubbo/dubbo-dubbo-2.5.3/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

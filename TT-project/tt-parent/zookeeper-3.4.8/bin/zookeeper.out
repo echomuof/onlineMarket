@@ -1,0 +1,26 @@
+2019-03-31 16:26:55,297 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: /Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../conf/zoo.cfg
+2019-03-31 16:26:55,302 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2019-03-31 16:26:55,302 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2019-03-31 16:26:55,302 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2019-03-31 16:26:55,303 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2019-03-31 16:26:55,317 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: /Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../conf/zoo.cfg
+2019-03-31 16:26:55,318 [myid:] - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2019-03-31 16:26:55,330 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2019-03-31 16:26:55,331 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=localhost
+2019-03-31 16:26:55,331 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_181
+2019-03-31 16:26:55,331 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2019-03-31 16:26:55,331 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+2019-03-31 16:26:55,331 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../build/classes:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../build/lib/*.jar:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../lib/slf4j-log4j12-1.6.1.jar:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../lib/slf4j-api-1.6.1.jar:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../lib/netty-3.7.0.Final.jar:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../lib/log4j-1.2.16.jar:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../lib/jline-0.9.94.jar:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../zookeeper-3.4.8.jar:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../src/java/lib/*.jar:/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin/../conf:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/lib/tools.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/lib/dt.jar:.
+2019-03-31 16:26:55,331 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-03-31 16:26:55,331 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/var/folders/35/9_d0pwmj6mb01ql99g28fkyw0000gn/T/
+2019-03-31 16:26:55,331 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2019-03-31 16:26:55,332 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Mac OS X
+2019-03-31 16:26:55,333 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=x86_64
+2019-03-31 16:26:55,333 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=10.14
+2019-03-31 16:26:55,333 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=darius
+2019-03-31 16:26:55,333 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/Users/darius
+2019-03-31 16:26:55,333 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/tt-parent/zookeeper-3.4.8/bin
+2019-03-31 16:26:55,342 [myid:] - INFO  [main:ZooKeeperServer@787] - tickTime set to 2000
+2019-03-31 16:26:55,342 [myid:] - INFO  [main:ZooKeeperServer@796] - minSessionTimeout set to -1
+2019-03-31 16:26:55,342 [myid:] - INFO  [main:ZooKeeperServer@805] - maxSessionTimeout set to -1
+2019-03-31 16:26:55,370 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181

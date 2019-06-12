@@ -1,0 +1,222 @@
+二月 14, 2019 9:11:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+二月 14, 2019 9:11:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+二月 14, 2019 9:11:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@53f70a01')
+二月 14, 2019 9:11:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3bf08c3b')
+二月 14, 2019 9:11:07 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:11:07 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:11:08 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:11:10 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:11:10 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:11:11 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:25:48 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:25:48 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:25:48 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+二月 14, 2019 9:25:48 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+二月 14, 2019 9:25:48 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:25:48 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:36:51 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:36:51 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:36:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:36:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+二月 14, 2019 9:36:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+二月 14, 2019 9:36:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@21ca01cf')
+二月 14, 2019 9:36:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@197ba87')
+二月 14, 2019 9:36:53 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:36:53 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:36:54 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:37:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:37:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:37:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+二月 14, 2019 9:37:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+二月 14, 2019 9:37:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:37:52 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:37:57 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:37:57 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:37:58 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:37:59 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+二月 14, 2019 9:37:59 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+二月 14, 2019 9:37:59 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5c4cf0ad')
+二月 14, 2019 9:37:59 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6f618950')
+二月 14, 2019 9:37:59 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:37:59 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:38:00 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:40:12 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:40:12 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:40:12 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+二月 14, 2019 9:40:12 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+二月 14, 2019 9:40:12 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:40:12 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:40:18 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:40:18 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:40:19 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:40:20 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+二月 14, 2019 9:40:20 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+二月 14, 2019 9:40:20 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6404069')
+二月 14, 2019 9:40:20 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6214de9f')
+二月 14, 2019 9:40:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:40:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:40:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:50:29 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:50:29 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:50:30 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:50:31 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+二月 14, 2019 9:50:31 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+二月 14, 2019 9:50:31 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3552be17')
+二月 14, 2019 9:50:31 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@61a97c69')
+二月 14, 2019 9:50:32 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:50:32 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:50:32 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:50:33 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:50:33 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:50:33 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+二月 14, 2019 9:50:33 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+二月 14, 2019 9:50:33 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:50:33 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:50:54 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'boot-pay'
+二月 14, 2019 9:50:54 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:50:56 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:50:56 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:50:56 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'tt-manage'
+二月 14, 2019 9:51:36 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'tt-manage'
+二月 14, 2019 9:51:36 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:51:36 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+二月 14, 2019 9:51:36 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+二月 14, 2019 9:51:36 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:51:36 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:55:02 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:55:02 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:55:03 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:55:05 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:55:05 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:55:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'tt-manage'
+二月 14, 2019 9:55:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+二月 14, 2019 9:55:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+二月 14, 2019 9:55:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7b15cf16')
+二月 14, 2019 9:55:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1ddb94f2')
+二月 14, 2019 9:55:08 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'tt-manage'
+二月 14, 2019 9:55:08 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:55:10 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:55:10 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:55:10 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'tt-manage'
+二月 14, 2019 9:56:05 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'tt-manage'
+二月 14, 2019 9:56:05 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:56:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+二月 14, 2019 9:56:06 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+二月 14, 2019 9:56:07 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'tt-manage'
+二月 14, 2019 9:56:29 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'tt-manage'
+二月 14, 2019 9:56:29 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+二月 14, 2019 9:56:29 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+二月 14, 2019 9:56:29 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+二月 14, 2019 9:56:29 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'taotao-manage'
+二月 14, 2019 9:56:29 上午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext

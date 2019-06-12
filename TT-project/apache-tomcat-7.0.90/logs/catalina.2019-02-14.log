@@ -1,0 +1,1637 @@
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.90
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 2 2018 17:05:37 UTC
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.90.0
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.14
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_181-b13
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/logging.properties
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/temp
+二月 14, 2019 9:11:06 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+二月 14, 2019 9:11:06 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:11:06 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 520 ms
+二月 14, 2019 9:11:06 上午 org.apache.tomcat.util.digester.Digester fatalError
+严重: Parse Fatal Error at line 46 column 103: 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1385)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:11:06 上午 org.apache.naming.NamingContext lookup
+警告: Unexpected exception resolving reference
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:11:06 上午 org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+严重: Exception processing Global JNDI Resources
+javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	... 20 more
+
+二月 14, 2019 9:11:06 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 14, 2019 9:11:06 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.90
+二月 14, 2019 9:11:06 上午 org.apache.tomcat.util.digester.Digester fatalError
+严重: Parse Fatal Error at line 46 column 103: 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1385)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:11:06 上午 org.apache.naming.NamingContext lookup
+警告: Unexpected exception resolving reference
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:11:06 上午 org.apache.catalina.realm.UserDatabaseRealm startInternal
+严重: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	... 20 more
+
+二月 14, 2019 9:11:06 上午 org.apache.catalina.realm.CombinedRealm startInternal
+严重: Failed to start "org.apache.catalina.realm.UserDatabaseRealm/1.0" realm
+org.apache.catalina.LifecycleException: Failed to start component [Realm[UserDatabaseRealm]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.apache.catalina.LifecycleException: No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 17 more
+
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs has finished in 230 ms
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager has finished in 112 ms
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples has finished in 192 ms
+二月 14, 2019 9:11:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT
+二月 14, 2019 9:11:06 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 14, 2019 9:11:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT has finished in 2,123 ms
+二月 14, 2019 9:11:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manage
+二月 14, 2019 9:11:10 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:11:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manage has finished in 3,047 ms
+二月 14, 2019 9:11:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager
+二月 14, 2019 9:11:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager has finished in 23 ms
+二月 14, 2019 9:11:12 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:11:12 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:11:12 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 5792 ms
+二月 14, 2019 9:14:52 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:14:52 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:14:52 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:14:52 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:18:50 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:18:50 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:18:50 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:18:50 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:19:50 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:19:50 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:19:50 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:19:51 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:20:14 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:20:14 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:20:14 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:20:14 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:21:51 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:21:51 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:21:51 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:21:51 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:22:26 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:22:26 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:22:26 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:22:26 上午 org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+警告: An attempt was made to authenticate the locked user "tomcat"
+二月 14, 2019 9:25:48 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 14, 2019 9:25:48 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:25:48 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:25:48 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 14, 2019 9:25:48 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:25:48 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:25:48 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:25:48 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.90
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 2 2018 17:05:37 UTC
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.90.0
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.14
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_181-b13
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/logging.properties
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/temp
+二月 14, 2019 9:36:49 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+二月 14, 2019 9:36:49 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:36:49 上午 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+二月 14, 2019 9:36:49 上午 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+二月 14, 2019 9:36:49 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 494 ms
+二月 14, 2019 9:36:49 上午 org.apache.tomcat.util.digester.Digester fatalError
+严重: Parse Fatal Error at line 46 column 103: 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1385)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:36:49 上午 org.apache.naming.NamingContext lookup
+警告: Unexpected exception resolving reference
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:36:49 上午 org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+严重: Exception processing Global JNDI Resources
+javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	... 20 more
+
+二月 14, 2019 9:36:49 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 14, 2019 9:36:49 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.90
+二月 14, 2019 9:36:49 上午 org.apache.tomcat.util.digester.Digester fatalError
+严重: Parse Fatal Error at line 46 column 103: 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1385)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:36:49 上午 org.apache.naming.NamingContext lookup
+警告: Unexpected exception resolving reference
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:36:49 上午 org.apache.catalina.realm.UserDatabaseRealm startInternal
+严重: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	... 20 more
+
+二月 14, 2019 9:36:49 上午 org.apache.catalina.realm.CombinedRealm startInternal
+严重: Failed to start "org.apache.catalina.realm.UserDatabaseRealm/1.0" realm
+org.apache.catalina.LifecycleException: Failed to start component [Realm[UserDatabaseRealm]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.apache.catalina.LifecycleException: No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 17 more
+
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml
+二月 14, 2019 9:36:49 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+警告: A docBase /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager inside the host appBase has been specified, and will be ignored
+二月 14, 2019 9:36:51 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:36:52 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deployment of configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml has finished in 2,867 ms
+二月 14, 2019 9:36:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs
+二月 14, 2019 9:36:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs has finished in 23 ms
+二月 14, 2019 9:36:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager
+二月 14, 2019 9:36:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager has finished in 34 ms
+二月 14, 2019 9:36:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples
+二月 14, 2019 9:36:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples has finished in 136 ms
+二月 14, 2019 9:36:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT
+二月 14, 2019 9:36:52 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 14, 2019 9:36:54 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT has finished in 1,700 ms
+二月 14, 2019 9:36:54 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager
+二月 14, 2019 9:36:54 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager has finished in 21 ms
+二月 14, 2019 9:36:54 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:36:54 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 4849 ms
+二月 14, 2019 9:37:52 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 14, 2019 9:37:52 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:37:52 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:37:52 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 14, 2019 9:37:52 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:37:52 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:37:52 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:37:52 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.90
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 2 2018 17:05:37 UTC
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.90.0
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.14
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_181-b13
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/logging.properties
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/temp
+二月 14, 2019 9:37:55 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+二月 14, 2019 9:37:55 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:37:55 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 436 ms
+二月 14, 2019 9:37:55 上午 org.apache.tomcat.util.digester.Digester fatalError
+严重: Parse Fatal Error at line 46 column 103: 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1385)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:37:55 上午 org.apache.naming.NamingContext lookup
+警告: Unexpected exception resolving reference
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:37:55 上午 org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+严重: Exception processing Global JNDI Resources
+javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	... 20 more
+
+二月 14, 2019 9:37:55 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 14, 2019 9:37:55 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.90
+二月 14, 2019 9:37:55 上午 org.apache.tomcat.util.digester.Digester fatalError
+严重: Parse Fatal Error at line 46 column 103: 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1385)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:37:55 上午 org.apache.naming.NamingContext lookup
+警告: Unexpected exception resolving reference
+org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:37:55 上午 org.apache.catalina.realm.UserDatabaseRealm startInternal
+严重: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。]
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 46; columnNumber: 103; 元素类型 "user" 必须后跟属性规范 ">" 或 "/>"。
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	... 20 more
+
+二月 14, 2019 9:37:55 上午 org.apache.catalina.realm.CombinedRealm startInternal
+严重: Failed to start "org.apache.catalina.realm.UserDatabaseRealm/1.0" realm
+org.apache.catalina.LifecycleException: Failed to start component [Realm[UserDatabaseRealm]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1226)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.apache.catalina.LifecycleException: No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 17 more
+
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml
+二月 14, 2019 9:37:55 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+警告: A docBase /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager inside the host appBase has been specified, and will be ignored
+二月 14, 2019 9:37:57 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:37:58 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deployment of configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml has finished in 2,894 ms
+二月 14, 2019 9:37:58 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs
+二月 14, 2019 9:37:58 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs has finished in 24 ms
+二月 14, 2019 9:37:58 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager
+二月 14, 2019 9:37:58 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager has finished in 36 ms
+二月 14, 2019 9:37:58 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples
+二月 14, 2019 9:37:59 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples has finished in 142 ms
+二月 14, 2019 9:37:59 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT
+二月 14, 2019 9:37:59 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 14, 2019 9:38:00 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT has finished in 1,633 ms
+二月 14, 2019 9:38:00 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager
+二月 14, 2019 9:38:00 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager has finished in 22 ms
+二月 14, 2019 9:38:00 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:38:00 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:38:00 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 4806 ms
+二月 14, 2019 9:40:12 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 14, 2019 9:40:12 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:40:12 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:40:12 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 14, 2019 9:40:12 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:40:12 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:40:12 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:40:12 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.90
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 2 2018 17:05:37 UTC
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.90.0
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.14
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_181-b13
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/logging.properties
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/temp
+二月 14, 2019 9:40:17 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+二月 14, 2019 9:40:17 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:40:17 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 434 ms
+二月 14, 2019 9:40:17 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 14, 2019 9:40:17 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.90
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml
+二月 14, 2019 9:40:17 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+警告: A docBase /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager inside the host appBase has been specified, and will be ignored
+二月 14, 2019 9:40:18 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:40:20 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deployment of configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml has finished in 2,668 ms
+二月 14, 2019 9:40:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs
+二月 14, 2019 9:40:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs has finished in 25 ms
+二月 14, 2019 9:40:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager
+二月 14, 2019 9:40:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager has finished in 34 ms
+二月 14, 2019 9:40:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples
+二月 14, 2019 9:40:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples has finished in 118 ms
+二月 14, 2019 9:40:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT
+二月 14, 2019 9:40:20 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 14, 2019 9:40:22 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT has finished in 1,596 ms
+二月 14, 2019 9:40:22 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager
+二月 14, 2019 9:40:22 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager has finished in 22 ms
+二月 14, 2019 9:40:22 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:40:22 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:40:22 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 4523 ms
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.90
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 2 2018 17:05:37 UTC
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.90.0
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.14
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_181-b13
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/logging.properties
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/temp
+二月 14, 2019 9:50:28 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+二月 14, 2019 9:50:28 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:50:28 上午 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+二月 14, 2019 9:50:28 上午 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+二月 14, 2019 9:50:28 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:50:28 上午 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+二月 14, 2019 9:50:28 上午 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 455 ms
+二月 14, 2019 9:50:28 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 14, 2019 9:50:28 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.90
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml
+二月 14, 2019 9:50:28 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+警告: A docBase /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager inside the host appBase has been specified, and will be ignored
+二月 14, 2019 9:50:29 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:50:31 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deployment of configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml has finished in 2,900 ms
+二月 14, 2019 9:50:31 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs
+二月 14, 2019 9:50:31 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs has finished in 23 ms
+二月 14, 2019 9:50:31 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager
+二月 14, 2019 9:50:31 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager has finished in 32 ms
+二月 14, 2019 9:50:31 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples
+二月 14, 2019 9:50:31 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples has finished in 133 ms
+二月 14, 2019 9:50:31 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT
+二月 14, 2019 9:50:31 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 14, 2019 9:50:33 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT has finished in 2,203 ms
+二月 14, 2019 9:50:33 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager
+二月 14, 2019 9:50:33 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager has finished in 33 ms
+二月 14, 2019 9:50:33 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 5363 ms
+二月 14, 2019 9:50:33 上午 org.apache.catalina.core.StandardServer await
+严重: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+二月 14, 2019 9:50:33 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:50:33 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:50:33 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 14, 2019 9:50:33 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:50:33 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:50:33 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:50:33 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:50:54 上午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context []
+二月 14, 2019 9:50:54 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT.war
+二月 14, 2019 9:50:56 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:50:57 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT.war has finished in 2,518 ms
+二月 14, 2019 9:51:36 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 14, 2019 9:51:36 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:51:36 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:51:36 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 14, 2019 9:51:36 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:51:36 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:51:36 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:51:36 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.90
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 2 2018 17:05:37 UTC
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.90.0
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.14
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_181-b13
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/logging.properties
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90
+二月 14, 2019 9:55:00 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/temp
+二月 14, 2019 9:55:00 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+二月 14, 2019 9:55:01 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:55:01 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:55:01 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 445 ms
+二月 14, 2019 9:55:01 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 14, 2019 9:55:01 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.90
+二月 14, 2019 9:55:01 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml
+二月 14, 2019 9:55:01 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+警告: A docBase /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager inside the host appBase has been specified, and will be ignored
+二月 14, 2019 9:55:02 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:55:04 上午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deployment of configuration descriptor /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml has finished in 2,948 ms
+二月 14, 2019 9:55:04 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT.war
+二月 14, 2019 9:55:05 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:55:06 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT.war has finished in 2,640 ms
+二月 14, 2019 9:55:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs
+二月 14, 2019 9:55:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/docs has finished in 28 ms
+二月 14, 2019 9:55:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager
+二月 14, 2019 9:55:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/manager has finished in 71 ms
+二月 14, 2019 9:55:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples
+二月 14, 2019 9:55:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/examples has finished in 169 ms
+二月 14, 2019 9:55:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager
+二月 14, 2019 9:55:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/host-manager has finished in 35 ms
+二月 14, 2019 9:55:07 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:55:07 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:55:07 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 5940 ms
+二月 14, 2019 9:55:08 上午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context []
+二月 14, 2019 9:55:08 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT.war
+二月 14, 2019 9:55:10 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:55:11 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT.war has finished in 2,322 ms
+二月 14, 2019 9:56:05 上午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context []
+二月 14, 2019 9:56:05 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT.war
+二月 14, 2019 9:56:06 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 14, 2019 9:56:07 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/darius/Documents/WorkTool/apache-tomcat-7.0.90/webapps/ROOT.war has finished in 2,037 ms
+二月 14, 2019 9:56:29 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 14, 2019 9:56:29 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:56:29 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:56:29 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 14, 2019 9:56:29 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.alibaba.druid.proxy.DruidDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 14, 2019 9:56:29 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 14, 2019 9:56:29 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+二月 14, 2019 9:56:29 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:56:29 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+二月 14, 2019 9:56:29 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+二月 14, 2019 9:56:29 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]

@@ -1,0 +1,62 @@
+[
+  {
+    "created": 1413415915000,
+    "updated": 1413415915000,
+    "id": 581,
+    "parentId": 580,
+    "name": "摄影摄像",
+    "status": 1,
+    "sortOrder": 1,
+    "isParent": true,
+    "state": "closed",
+    "text": "摄影摄像"
+  },
+  {
+    "created": 1413415915000,
+    "updated": 1413415915000,
+    "id": 591,
+    "parentId": 580,
+    "name": "数码配件",
+    "status": 1,
+    "sortOrder": 2,
+    "isParent": true,
+    "state": "closed",
+    "text": "数码配件"
+  },
+  {
+    "created": 1413415915000,
+    "updated": 1413415915000,
+    "id": 604,
+    "parentId": 580,
+    "name": "智能设备",
+    "status": 1,
+    "sortOrder": 3,
+    "isParent": true,
+    "state": "closed",
+    "text": "智能设备"
+  },
+  {
+    "created": 1413415915000,
+    "updated": 1413415915000,
+    "id": 614,
+    "parentId": 580,
+    "name": "时尚影音",
+    "status": 1,
+    "sortOrder": 4,
+    "isParent": true,
+    "state": "closed",
+    "text": "时尚影音"
+  },
+  {
+    "created": 1413415915000,
+    "updated": 1413415915000,
+    "id": 625,
+    "parentId": 580,
+    "name": "电子教育",
+    "status": 1,
+    "sortOrder": 5,
+    "isParent": true,
+    "state": "closed",
+    "text": "电子教育"
+  }
+]

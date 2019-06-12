@@ -1,0 +1,483 @@
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Server version:        Apache Tomcat/7.0.90
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Server built:          Jul 2 2018 17:05:37 UTC
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Server number:         7.0.90.0
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: OS Name:               Mac OS X
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: OS Version:            10.14
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Architecture:          x86_64
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: JVM Version:           1.8.0_181-b13
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: JVM Vendor:            Oracle Corporation
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: CATALINA_BASE:         /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: CATALINA_HOME:         /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/logging.properties
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Dignore.endorsed.dirs=
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/temp
+?? 03, 2019 10:57:55 ?? org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+??: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+?? 03, 2019 10:57:55 ?? org.apache.coyote.AbstractProtocol init
+??: Initializing ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:57:55 ?? org.apache.coyote.AbstractProtocol init
+??: Initializing ProtocolHandler ["ajp-bio-8009"]
+?? 03, 2019 10:57:55 ?? org.apache.coyote.AbstractProtocol init
+??: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+?? 03, 2019 10:57:55 ?? org.apache.catalina.core.StandardService initInternal
+??: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.Catalina load
+??: Initialization processed in 479 ms
+?? 03, 2019 10:57:55 ?? org.apache.catalina.core.StandardService startInternal
+??: Starting service Catalina
+?? 03, 2019 10:57:55 ?? org.apache.catalina.core.StandardEngine startInternal
+??: Starting Servlet Engine: Apache Tomcat/7.0.90
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.HostConfig deployDescriptor
+??: Deploying configuration descriptor /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml
+?? 03, 2019 10:57:55 ?? org.apache.catalina.startup.HostConfig deployDescriptor
+??: A docBase /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager inside the host appBase has been specified, and will be ignored
+?? 03, 2019 10:57:56 ?? org.apache.catalina.startup.TldConfig execute
+??: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+?? 03, 2019 10:57:58 ?? org.apache.catalina.startup.HostConfig deployDescriptor
+??: Deployment of configuration descriptor /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml has finished in 2,842 ms
+?? 03, 2019 10:57:58 ?? org.apache.catalina.startup.HostConfig deployWAR
+??: Deploying web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/admin.war
+?? 03, 2019 10:58:00 ?? org.apache.catalina.startup.TldConfig execute
+??: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+?? 03, 2019 10:58:06 ?? org.apache.catalina.startup.HostConfig deployWAR
+??: Deployment of web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/admin.war has finished in 8,214 ms
+?? 03, 2019 10:58:06 ?? org.apache.catalina.startup.HostConfig deployWAR
+??: Deploying web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/ROOT.war
+?? 03, 2019 10:58:07 ?? org.apache.catalina.startup.TldConfig execute
+??: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+?? 03, 2019 10:58:08 ?? org.apache.catalina.core.StandardContext startInternal
+??: One or more listeners failed to start. Full details will be found in the appropriate container log file
+?? 03, 2019 10:58:08 ?? org.apache.catalina.core.StandardContext startInternal
+??: Context [] startup failed due to previous errors
+?? 03, 2019 10:58:08 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+??: The web application [] registered the JDBC driver [com.alibaba.druid.proxy.DruidDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+?? 03, 2019 10:58:08 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+??: The web application [] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+?? 03, 2019 10:58:08 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:58:08 ?? org.apache.catalina.startup.HostConfig deployWAR
+??: Deployment of web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/ROOT.war has finished in 2,109 ms
+?? 03, 2019 10:58:08 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/web
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.TldConfig execute
+??: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/web has finished in 1,024 ms
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/docs
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/docs has finished in 18 ms
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager has finished in 34 ms
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/examples
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/examples has finished in 124 ms
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/host-manager
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/host-manager has finished in 17 ms
+?? 03, 2019 10:58:09 ?? org.apache.coyote.AbstractProtocol start
+??: Starting ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:58:09 ?? org.apache.catalina.startup.Catalina start
+??: Server startup in 14433 ms
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.StandardServer await
+??: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+?? 03, 2019 10:58:09 ?? org.apache.coyote.AbstractProtocol pause
+??: Pausing ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:58:09 ?? org.apache.coyote.AbstractProtocol pause
+??: Pausing ProtocolHandler ["ajp-bio-8009"]
+?? 03, 2019 10:58:09 ?? org.apache.catalina.core.StandardService stopInternal
+??: Stopping service Catalina
+?? 03, 2019 10:58:09 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [DubboRegistryFailedRetryTimer-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:58:09 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [ZkClient-EventThread-18-127.0.0.1:2181] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:58:09 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [DubboZkclientConnector-SendThread(127.0.0.1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:58:09 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [DubboZkclientConnector-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:58:09 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [DubboFutureCallbackDefault-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:58:09 ?? org.apache.coyote.AbstractProtocol stop
+??: Stopping ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:58:09 ?? org.apache.coyote.AbstractProtocol destroy
+??: Destroying ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:58:09 ?? org.apache.coyote.AbstractProtocol stop
+??: Stopping ProtocolHandler ["ajp-bio-8009"]
+?? 03, 2019 10:58:09 ?? org.apache.coyote.AbstractProtocol destroy
+??: Destroying ProtocolHandler ["ajp-bio-8009"]
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Server version:        Apache Tomcat/7.0.90
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Server built:          Jul 2 2018 17:05:37 UTC
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Server number:         7.0.90.0
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: OS Name:               Mac OS X
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: OS Version:            10.14
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Architecture:          x86_64
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: JVM Version:           1.8.0_181-b13
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: JVM Vendor:            Oracle Corporation
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: CATALINA_BASE:         /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: CATALINA_HOME:         /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/logging.properties
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Dignore.endorsed.dirs=
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.VersionLoggerListener log
+??: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/temp
+?? 03, 2019 10:59:08 ?? org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+??: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+?? 03, 2019 10:59:08 ?? org.apache.coyote.AbstractProtocol init
+??: Initializing ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:59:08 ?? org.apache.coyote.AbstractProtocol init
+??: Initializing ProtocolHandler ["ajp-bio-8009"]
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.Catalina load
+??: Initialization processed in 454 ms
+?? 03, 2019 10:59:08 ?? org.apache.catalina.core.StandardService startInternal
+??: Starting service Catalina
+?? 03, 2019 10:59:08 ?? org.apache.catalina.core.StandardEngine startInternal
+??: Starting Servlet Engine: Apache Tomcat/7.0.90
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.HostConfig deployDescriptor
+??: Deploying configuration descriptor /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml
+?? 03, 2019 10:59:08 ?? org.apache.catalina.startup.HostConfig deployDescriptor
+??: A docBase /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager inside the host appBase has been specified, and will be ignored
+?? 03, 2019 10:59:09 ?? org.apache.catalina.startup.TldConfig execute
+??: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+?? 03, 2019 10:59:11 ?? org.apache.catalina.startup.HostConfig deployDescriptor
+??: Deployment of configuration descriptor /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml has finished in 3,309 ms
+?? 03, 2019 10:59:11 ?? org.apache.catalina.startup.HostConfig deployWAR
+??: Deploying web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/admin.war
+?? 03, 2019 10:59:13 ?? org.apache.catalina.startup.TldConfig execute
+??: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+?? 03, 2019 10:59:19 ?? org.apache.catalina.startup.HostConfig deployWAR
+??: Deployment of web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/admin.war has finished in 7,782 ms
+?? 03, 2019 10:59:19 ?? org.apache.catalina.startup.HostConfig deployWAR
+??: Deploying web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/ROOT.war
+?? 03, 2019 10:59:20 ?? org.apache.catalina.startup.TldConfig execute
+??: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+?? 03, 2019 10:59:21 ?? org.apache.catalina.core.StandardContext startInternal
+??: One or more listeners failed to start. Full details will be found in the appropriate container log file
+?? 03, 2019 10:59:21 ?? org.apache.catalina.core.StandardContext startInternal
+??: Context [] startup failed due to previous errors
+?? 03, 2019 10:59:21 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+??: The web application [] registered the JDBC driver [com.alibaba.druid.proxy.DruidDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+?? 03, 2019 10:59:21 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+??: The web application [] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+?? 03, 2019 10:59:21 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:59:21 ?? org.apache.catalina.startup.HostConfig deployWAR
+??: Deployment of web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/ROOT.war has finished in 1,867 ms
+?? 03, 2019 10:59:21 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/web
+?? 03, 2019 10:59:21 ?? org.apache.catalina.startup.TldConfig execute
+??: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/web has finished in 1,059 ms
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/docs
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/docs has finished in 23 ms
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager has finished in 37 ms
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/examples
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/examples has finished in 113 ms
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/host-manager
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.HostConfig deployDirectory
+??: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/host-manager has finished in 17 ms
+?? 03, 2019 10:59:22 ?? org.apache.coyote.AbstractProtocol start
+??: Starting ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:59:22 ?? org.apache.coyote.AbstractProtocol start
+??: Starting ProtocolHandler ["ajp-bio-8009"]
+?? 03, 2019 10:59:22 ?? org.apache.catalina.startup.Catalina start
+??: Server startup in 14259 ms
+?? 03, 2019 10:59:25 ?? org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+??: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.StandardServer await
+??: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+?? 03, 2019 10:59:33 ?? org.apache.coyote.AbstractProtocol pause
+??: Pausing ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:59:33 ?? org.apache.coyote.AbstractProtocol pause
+??: Pausing ProtocolHandler ["ajp-bio-8009"]
+?? 03, 2019 10:59:33 ?? org.apache.catalina.core.StandardService stopInternal
+??: Stopping service Catalina
+?? 03, 2019 10:59:33 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [DubboRegistryFailedRetryTimer-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:59:33 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [ZkClient-EventThread-18-127.0.0.1:2181] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:59:33 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [DubboZkclientConnector-SendThread(127.0.0.1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:59:33 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [DubboZkclientConnector-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:59:33 ?? org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+??: The web application [/admin] appears to have started a thread named [DubboFutureCallbackDefault-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+?? 03, 2019 10:59:33 ?? org.apache.coyote.AbstractProtocol stop
+??: Stopping ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:59:33 ?? org.apache.coyote.AbstractProtocol stop
+??: Stopping ProtocolHandler ["ajp-bio-8009"]
+?? 03, 2019 10:59:33 ?? org.apache.coyote.AbstractProtocol destroy
+??: Destroying ProtocolHandler ["http-bio-8080"]
+?? 03, 2019 10:59:33 ?? org.apache.coyote.AbstractProtocol destroy
+??: Destroying ProtocolHandler ["ajp-bio-8009"]
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.90
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 2 2018 17:05:37 UTC
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.90.0
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.14
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_181-b13
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/logging.properties
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/temp
+四月 03, 2019 11:00:23 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/darius/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+四月 03, 2019 11:00:23 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+四月 03, 2019 11:00:23 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 452 ms
+四月 03, 2019 11:00:23 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+四月 03, 2019 11:00:23 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.90
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml
+四月 03, 2019 11:00:23 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+警告: A docBase /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager inside the host appBase has been specified, and will be ignored
+四月 03, 2019 11:00:25 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+四月 03, 2019 11:00:26 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deployment of configuration descriptor /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/conf/Catalina/localhost/manage.xml has finished in 2,877 ms
+四月 03, 2019 11:00:26 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/admin.war
+四月 03, 2019 11:00:28 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+四月 03, 2019 11:00:33 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/admin.war has finished in 7,066 ms
+四月 03, 2019 11:00:33 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/ROOT.war
+四月 03, 2019 11:00:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+四月 03, 2019 11:00:36 下午 org.apache.catalina.core.StandardContext startInternal
+严重: One or more listeners failed to start. Full details will be found in the appropriate container log file
+四月 03, 2019 11:00:36 下午 org.apache.catalina.core.StandardContext startInternal
+严重: Context [] startup failed due to previous errors
+四月 03, 2019 11:00:36 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.alibaba.druid.proxy.DruidDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+四月 03, 2019 11:00:36 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+四月 03, 2019 11:00:36 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+四月 03, 2019 11:00:36 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/ROOT.war has finished in 2,173 ms
+四月 03, 2019 11:00:36 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/web
+四月 03, 2019 11:00:36 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/web has finished in 1,056 ms
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/docs
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/docs has finished in 20 ms
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/manager has finished in 40 ms
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/examples
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/examples has finished in 134 ms
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/host-manager
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/darius/Documents/WorkSpace/JavaProject/TT-project/apache-tomcat-7.0.90/webapps/host-manager has finished in 21 ms
+四月 03, 2019 11:00:37 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+四月 03, 2019 11:00:37 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+四月 03, 2019 11:00:37 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 13439 ms
+四月 03, 2019 11:00:40 下午 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+信息: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+四月 03, 2019 11:02:54 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:40:09 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:40:23 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:40:33 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:46:41 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:49:26 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:49:35 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:49:45 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:55:44 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:55:52 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:56:02 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:56:11 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:56:21 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:56:29 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+四月 03, 2019 11:56:38 下午 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
